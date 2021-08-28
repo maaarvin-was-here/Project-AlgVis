@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>AlgVis Breadth-First Search</title>
+    <link rel="stylesheet" href="BFS.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="maintitle">Breadth-First Search</h1>
+        <p id="main-title-description">Breadth-First Search is an O(N) shortest pathfinding algorithm ... etc.</p>
+    </div>
+    <div id="grapharea">
+        <div id="menu">
+            <div id="input-area">
+                <p id="input-instructions">Enter number of nodes (1 - 15)</p>
+                <input type="text" id="input-text" onkeydown="if (event.keyCode == 13) { submittedNodeCount(this.value); return false; }">
+            </div>
+            
+            <div id="open-list-div">
+                <p class="list-title">
+                    Open List
+                </p>
+                <p id = "open-list" class="list-content">
+                    
+                </p>
+            </div>
+            
+            <div id="closed-list-div">
+                <p class="list-title">
+                    Closed List
+                </p>
+                <p id ="closed-list" class="list-content">
+                    
+                </p>
+            </div>
+        </div>
+        
+        <div id="canvasdiv">
+            <canvas id="graphcanvas" width="803px" height="500px">
+        
+            </canvas> 
+            <div id="statusbar">
+                <button id="step-button" onclick="stepForward()">
+                    STEP
+                </button>
+                <p id="status-paragraph">
+                    &nbsp;
+                </p>
+            </div>
+        </div>     
+    </div>
+    
+    <script src="BFS.js"></script>
+</body>
+    
+</html>

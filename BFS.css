@@ -1,0 +1,184 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#top {
+    position: relative;
+    top: 0vh;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #DDDDDD;
+
+}
+
+#maintitle{
+    margin:0;
+    text-align: left;
+    padding-left: 20vw;
+    margin-top: 5vh;
+    
+    font-family: trebuchet ms;
+    font-size: 3.4722222222222223vw;
+    font-weight: bold;
+    color: black;
+}
+
+#main-title-description{
+    text-align: left;
+    padding-left: 15vw;
+    margin: 3vh;
+    margin-bottom: 5vh;
+    
+    font-family: trebuchet ms;
+    font-size: 1.25vw;
+}
+
+#grapharea{
+    background-color: white;
+    width: 80vw;
+    height: 70vh;
+    
+    margin: 0 auto;
+    
+    border: 2px solid black;
+}
+
+#menu{
+    background-color: #FBF9F3;
+    width: 30%;
+    height: 100%;
+    float: left;
+    
+    border-right: 1px solid black;   
+}
+
+#input-area{
+    background-color: #ECEAE4;
+    width: 100%;
+    height: 30%;
+    
+    /*border-bottom: 1px solid black;*/
+}
+
+#input-instructions{
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    
+    font-family: trebuchet ms;
+    
+    text-align: center;
+}
+
+#input-text{
+    margin: auto;
+    display: block;
+    
+    width: 10%;
+}
+
+#submit-button{
+    margin: auto;
+    margin-top: 5%;
+    padding: 0;
+    display: block;
+    
+    width: 40%;
+}
+
+#open-list-div{
+    background-color: #FBF9F3;
+    width: 100%;
+    height: 35%;
+    
+    border-right: 2px solid #ECEAE4;
+}
+
+#closed-list-div{
+    background-color: #ECEAE4;
+    width: 100%;
+    height: 35%;
+}
+
+.list-title{
+    margin: 0;
+    margin-left: 20%;
+    padding-top: 4%;
+    
+    font-family: trebuchet ms;
+}
+
+.list-content{
+    margin-top: 10%;
+    margin-left: 20%;
+    
+    font-family: trebuchet ms;
+}
+
+#canvasdiv{
+    background-color: #FBF9F3;
+    width: 70%;
+    height: 100%;
+    
+    margin-left: 30%;
+    
+    position: relative;
+}
+
+#graphcanvas{
+    
+}
+
+
+#statusbar {
+    background-color: #FBF9F3;
+    width: 100%;
+    height: 9.65%;
+    
+    position: absolute;
+    bottom: 0;
+    
+}
+
+#step-button {
+    margin: auto;
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+    height: 30px;
+    border: 1px solid black;
+    
+    background-color: lightgreen;
+    
+    font-family: trebuchet ms;
+    font-weight: bolder;
+}
+
+#step-button:hover {
+    transform: scale(1.1);
+}
+
+#status-paragraph {
+    margin: 0;
+    display: inline-block;
+    
+    text-align: center;
+    line-height: 40px;
+    width: 80%;
+    
+    border: 1.5px solid black;
+    
+    font-family: trebuchet ms;
+}
+
+
+
+
+
+
+

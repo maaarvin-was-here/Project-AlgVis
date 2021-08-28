@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#top {
+    position: relative;
+    top: 0vh;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #DDDDDD;
+
+}
+
+#maintitle{
+    margin:0;
+    text-align: left;
+    padding-left: 20vw;
+    margin-top: 30vh;
+    
+    font-family: trebuchet ms;
+    font-size: 3.4722222222222223vw;
+    font-weight: bold;
+    color: black;
+}
+
+#main-title-description{
+    text-align: left;
+    padding-left: 15vw;
+    margin: 3vh;
+    margin-bottom: 5vh;
+    
+    font-family: trebuchet ms;
+    font-size: 1.25vw;
+}
+
+#main-grid{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85vw;
+    display: grid;
+    /*padding-top: 3.75%;*/
+    
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-column-gap: 5vw;
+    
+    grid-template-rows: 25vw 25vw;
+    
+    grid-row-gap: 50px;
+    
+}
+
+.grid-item{
+    color: white;
+    background-color: #1dacd6;
+    width: 25vw;
+    height: 25vw;
+    
+    position: relative;
+}
+
+.grid-item:hover{
+    transform: scale(1.01)
+}
+
+.grid-item:hover .boxtitle{
+    margin-bottom: 50%;
+}
+
+
+.boxtitle{
+    font-family: trebuchet ms;
+    
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 0;
+    
+    text-align: center;
+    
+    transition: 0.5s linear;
+}
+
+
+
+#copyright{
+    color: black;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    font-family: trebuchet ms;
+    width: 100vw;
+}
+
+
